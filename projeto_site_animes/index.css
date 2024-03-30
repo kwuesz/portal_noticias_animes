@@ -1,0 +1,147 @@
+body {
+    margin: 0px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.body table {
+    width: 100%;
+}
+
+/** CSS Barra superior **/
+.top-bar {
+    width: 100%;
+    height: 70px;
+}
+
+.top-bar .logo {
+    width: 175Px;
+    height: 30px;
+    position: relative;
+    margin: 20px;
+}
+
+.top-bar .logo img {
+    width: 220px;
+    height: 87px;
+}
+
+.top-bar .menu {
+
+    color: white;
+
+}
+
+.top-bar .menu a {
+    color: white;
+    text-decoration: none;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: bold;
+    align-content: center;
+}
+
+.top-bar .menu a:hover {
+    color: rgb(53, 7, 53);
+    text-decoration: none;
+}
+
+/** linha vertical **/
+.linhavertical {
+    width: 5px;
+    height: 100%;
+    background-color: black;
+}
+
+/** conteudo **/
+.conteudo {
+    color: black;
+    width: 100%;
+}
+
+.conteudo p {
+    margin: 2px;
+}
+
+.conteudo ul {
+    margin-inline: 0px;
+    padding: 5px;
+}
+
+.conteudo li {
+    list-style: none;
+}
+
+.conteudo td {
+    padding: 0px;
+    margin: 0px;
+}
+
+.conteudo h1 {
+    color: black;
+    margin: 15px;
+}
+
+.conteudo h3 {
+    margin: 0px;
+}
+
+.conteudo .linha {
+    margin: 0px;
+    height: 5px;
+    background-color: rgb(31, 30, 30);
+}.conteudo .hoverimg img:hover{
+    opacity: 0.8;
+}
+
+.conteudo .txtnoticia {
+    margin: 0px;
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight:normal ;
+    font-style: oblique;
+}
+
+.conteudo .txtnoticia h3 {
+    font-weight: 900;
+    font-style: normal;
+}
+
+.conteudo .txtnoticia h1 {
+    font-size: 25px;
+    font-weight: 900;
+    font-style: normal;
+    padding: 0px;
+}
+.conteudo .txtnoticia p {
+
+    padding: 3px;
+}
+
+.conteudo .tdcolor {
+    background-color: rgb(0, 0, 0);
+}
+
+/**  rodape **/
+.underbar {
+    width: 100%;
+    height: 150px;
+    margin: 0px;
+}
+
+.underbar .infsite {
+    background-color: #820080;
+    color: rgb(255, 255, 255);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.underbar .infsite a {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    font-size: 15px;
+    font-weight: 500;
+}
+
+.underbar .infsite a:hover {
+    color: rgba(133, 14, 20, 0.812);
+}
